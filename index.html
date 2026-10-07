@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#151714">
+  <meta name="description" content="O Patou, restaurant de montagne familial au cœur de La Joue du Loup.">
+  <title>O Patou — Original Mountain Resto</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/instrument.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="intro" aria-hidden="true">
+    <svg class="intro-mark" viewBox="0 0 160 160"><path d="M80 13C38 13 18 43 18 79s20 68 62 68 62-32 62-68S122 13 80 13Zm0 25c21 0 35 17 35 41 0 25-14 43-35 43S45 104 45 79c0-24 14-41 35-41Z"/><path d="M82 46h39v19H98v47H76V58c0-7 2-12 6-12Z" fill="#b7d638"/></svg>
+    <p>La Joue du Loup · 1 500 m</p>
+  </div>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="pointer" aria-hidden="true">+</div>
+
+  <header class="topbar">
+    <a class="brand" href="#accueil" aria-label="O Patou, accueil"><img src="logo.svg" alt="O Patou — Original Mountain Resto"></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="menu"><span>Menu</span><i></i></button>
+    <nav id="menu" aria-label="Navigation">
+      <a href="#maison">La maison</a><a href="#table">À table</a><a href="#galerie">Galerie</a><a href="#venir">Venir</a>
+    </nav>
+    <a class="book" href="tel:+33492211608">Réserver <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="accueil">
+      <div class="hero-photo parallax"><img src="assets/night.webp" alt="Façade enneigée du restaurant O Patou de nuit"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-title">
+        <p class="kicker reveal">Restaurant de montagne · La Joue du Loup</p>
+        <h1 aria-label="Généreux par nature"><span class="line">Généreux</span><span class="line script">par nature.</span></h1>
+      </div>
+      <div class="hero-foot reveal"><p>Une grande table familiale, des saveurs alpines et 110 places pour accueillir les tribus.</p><a href="#maison">Entrer <i>↓</i></a></div>
+      <svg class="hero-seal" viewBox="0 0 180 180" aria-hidden="true">
+        <defs><path id="circle" d="M90,90 m-67,0 a67,67 0 1,1 134,0 a67,67 0 1,1 -134,0"/></defs>
+        <text><textPath href="#circle">ORIGINAL MOUNTAIN RESTO · LA JOUE DU LOUP · </textPath></text>
+        <path class="paw" d="M73 97c0-15 9-27 17-27s17 12 17 27c0 12-8 18-17 18s-17-6-17-18Zm-18-12c-7-5-8-15-3-20s14-2 17 6c3 7-1 15-7 17-2 1-5 0-7-3Zm70 0c7-5 8-15 3-20s-14-2-17 6c-3 7 1 15 7 17 2 1 5 0 7-3Z"/>
+      </svg>
+    </section>
+
+    <section class="welcome" id="maison">
+      <div class="welcome-aside reveal"><span>Depuis la Place des Boutiques</span><i></i><small>Restaurant familial<br>1500 m d’altitude</small></div>
+      <div class="welcome-copy">
+        <p class="overline reveal">Bienvenue chez O Patou</p>
+        <h2 class="words">Un restaurant de montagne pensé comme une <em>grande maison.</em></h2>
+        <div class="welcome-bottom reveal"><p>Au cœur de la station, la famille reçoit les habitués, les vacanciers et les groupes dans un chalet chaleureux ouvert hiver comme été.</p><a class="round-link" href="#table">Voir la carte <span>↘</span></a></div>
+      </div>
+    </section>
+
+    <section class="panorama">
+      <div class="panorama-track" aria-hidden="true"><span>BIEN MANGER · SE RETROUVER · PRENDRE LE TEMPS · </span><span>BIEN MANGER · SE RETROUVER · PRENDRE LE TEMPS · </span></div>
+      <figure class="panorama-img image-wipe"><img src="assets/dining.webp" alt="Salle lumineuse du restaurant O Patou" loading="lazy"></figure>
+      <div class="panorama-note reveal"><b>110</b><p>couverts<br>pour accueillir<br>petites et grandes tablées</p></div>
+    </section>
+
+    <section class="table" id="table">
+      <div class="table-heading">
+        <p class="overline reveal">La carte</p>
+        <h2 class="words">Des assiettes <em>franches</em>, une cuisine qui rassemble.</h2>
+        <p class="reveal">La sélection exacte et les tarifs restent à confirmer directement auprès du restaurant. Les familles de plats ci-dessous proviennent de la fiche officielle.</p>
+      </div>
+      <div class="plates">
+        <article class="plate plate-light reveal"><span>01</span><div class="plate-orbit"><i>🥬</i></div><h3>Salades<br>& plats légers</h3><p>Une option fraîche avant de reprendre les sentiers ou les pistes.</p></article>
+        <article class="plate plate-green reveal"><span>02</span><div class="plate-orbit"><i>⛰</i></div><h3>Spécialités<br>de montagne</h3><p>Des saveurs alpines et une cuisine généreuse, servies au chalet.</p></article>
+        <article class="plate plate-photo image-wipe"><img src="assets/burgers.webp" alt="Assiettes généreuses préparées au O Patou" loading="lazy"><span>03</span><h3>Viandes<br>& tradition</h3></article>
+        <article class="plate plate-dark reveal"><span>04</span><div class="plate-orbit"><i>✦</i></div><h3>Options<br>végétariennes</h3><p>Une carte variée et équilibrée pour recevoir toute la tablée.</p></article>
+      </div>
+      <p class="source-note">Carte complète et allergènes : renseignements au restaurant.</p>
+    </section>
+
+    <section class="two-scenes">
+      <figure class="scene scene-terrace image-wipe"><img src="assets/terrace.webp" alt="Terrasse ensoleillée du restaurant O Patou" loading="lazy"><figcaption>01 / Plein soleil</figcaption></figure>
+      <div class="scene-copy reveal"><span>DEHORS / DEDANS</span><h2>Le même chalet,<br><em>deux saisons.</em></h2><p>Terrasse au soleil lorsque le Dévoluy s’ouvre, salle douce et lumineuse quand la neige revient.</p></div>
+      <figure class="scene scene-neon image-wipe"><img src="assets/neon.webp" alt="Enseigne lumineuse O Patou dans la salle" loading="lazy"><figcaption>02 / À la nuit tombée</figcaption></figure>
+    </section>
+
+    <section class="gallery" id="galerie">
+      <div class="gallery-head reveal"><p class="overline">L’ambiance</p><h2>De la lumière,<br>du bois, <em>du vivant.</em></h2></div>
+      <div class="gallery-slider" tabindex="0" aria-label="Galerie défilante">
+        <figure><img src="assets/front.webp" alt="Façade du restaurant en hiver" loading="lazy"><figcaption>Le chalet</figcaption></figure>
+        <figure><img src="assets/dining.webp" alt="Salle et tables du restaurant" loading="lazy"><figcaption>La salle</figcaption></figure>
+        <figure><img src="assets/burgers.webp" alt="Plats servis au restaurant" loading="lazy"><figcaption>En cuisine</figcaption></figure>
+        <figure><img src="assets/terrace.webp" alt="Terrasse du restaurant" loading="lazy"><figcaption>La terrasse</figcaption></figure>
+      </div>
+      <div class="drag-hint" aria-hidden="true">Glisser →</div>
+    </section>
+
+    <section class="visit" id="venir">
+      <div class="visit-logo reveal"><img src="logo.svg" alt="O Patou"></div>
+      <div class="visit-copy">
+        <p class="overline reveal">À table</p>
+        <h2 class="words">On vous garde <em>une place ?</em></h2>
+        <div class="details">
+          <div class="reveal"><span>ADRESSE</span><p>Place des Boutiques<br>05250 La Joue du Loup</p><a href="https://www.google.com/maps/search/?api=1&query=O+Patou+La+Joue+du+Loup" target="_blank" rel="noopener">Voir l’itinéraire ↗</a></div>
+          <div class="reveal"><span>HORAIRES ANNONCÉS</span><p>7 jours sur 7<br>11:00 — 14:00<br>18:00 — 21:30</p><small>Selon les périodes d’ouverture saisonnières.</small></div>
+          <div class="reveal"><span>RÉSERVATION</span><p>Repas, groupes<br>& événements</p><a href="tel:+33492211608">04 92 21 16 08 ↗</a></div>
+        </div>
+        <a class="huge-link" href="tel:+33492211608"><span>Appeler O Patou</span><i>↗</i></a>
+      </div>
+    </section>
+  </main>
+
+  <footer><p>O Patou · Original Mountain Resto</p><div><a href="#accueil">Retour en haut ↑</a><span>Maquette indépendante — 2026</span></div></footer>
+  <script src="app.js"></script>
+</body>
+</html>
