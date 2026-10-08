@@ -4,8 +4,8 @@ Maquette indépendante pour **O Patou**, restaurant traditionnel et familial sit
 
 ## Liens
 
-- Site Cloudflare Pages : à renseigner après publication
-- Dépôt GitHub : à renseigner après publication
+- Site Cloudflare Pages : [o-patou.pages.dev](https://o-patou.pages.dev)
+- Dépôt GitHub : [AMWEBDESIGNER/o-patou](https://github.com/AMWEBDESIGNER/o-patou)
 - Téléphone public : 04 92 21 16 08
 
 ## Sources publiques
