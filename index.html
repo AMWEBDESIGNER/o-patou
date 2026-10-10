@@ -10,20 +10,21 @@
   <link rel="preload" href="assets/fraunces.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/instrument.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="complete.css">
 </head>
 <body>
   <div class="intro" aria-hidden="true">
-    <svg class="intro-mark" viewBox="0 0 160 160"><path d="M80 13C38 13 18 43 18 79s20 68 62 68 62-32 62-68S122 13 80 13Zm0 25c21 0 35 17 35 41 0 25-14 43-35 43S45 104 45 79c0-24 14-41 35-41Z"/><path d="M82 46h39v19H98v47H76V58c0-7 2-12 6-12Z" fill="#b7d638"/></svg>
+    <img class="intro-mark" src="assets/logo-original.webp" alt="">
     <p>La Joue du Loup · 1 500 m</p>
   </div>
   <div class="grain" aria-hidden="true"></div>
   <div class="pointer" aria-hidden="true">+</div>
 
   <header class="topbar">
-    <a class="brand" href="#accueil" aria-label="O Patou, accueil"><img src="logo.svg" alt="O Patou — Original Mountain Resto"></a>
+    <a class="brand" href="#accueil" aria-label="O Patou, accueil"><img src="assets/logo-original.webp" alt="O Patou — Original Mountain Resto"></a>
     <button class="menu-toggle" aria-expanded="false" aria-controls="menu"><span>Menu</span><i></i></button>
     <nav id="menu" aria-label="Navigation">
-      <a href="#maison">La maison</a><a href="#table">À table</a><a href="#galerie">Galerie</a><a href="#venir">Venir</a>
+      <a href="la-maison.html">La maison</a><a href="la-carte.html">À table</a><a href="groupes.html">Groupes</a><a href="infos-pratiques.html">Venir</a>
     </nav>
     <a class="book" href="tel:+33492211608">Réserver <span>↗</span></a>
   </header>
@@ -49,7 +50,7 @@
       <div class="welcome-copy">
         <p class="overline reveal">Bienvenue chez O Patou</p>
         <h2 class="words">Un restaurant de montagne pensé comme une <em>grande maison.</em></h2>
-        <div class="welcome-bottom reveal"><p>Au cœur de la station, la famille reçoit les habitués, les vacanciers et les groupes dans un chalet chaleureux ouvert hiver comme été.</p><a class="round-link" href="#table">Voir la carte <span>↘</span></a></div>
+        <div class="welcome-bottom reveal"><p>Au cœur de la station, la famille reçoit les habitués, les vacanciers et les groupes dans un chalet chaleureux ouvert hiver comme été.</p><a class="round-link" href="la-carte.html">Découvrir l’offre <span>↘</span></a></div>
       </div>
     </section>
 
@@ -92,7 +93,7 @@
     </section>
 
     <section class="visit" id="venir">
-      <div class="visit-logo reveal"><img src="logo.svg" alt="O Patou"></div>
+      <div class="visit-logo reveal"><img src="assets/logo-original.webp" alt="Enseigne originale O Patou"></div>
       <div class="visit-copy">
         <p class="overline reveal">À table</p>
         <h2 class="words">On vous garde <em>une place ?</em></h2>
@@ -106,7 +107,8 @@
     </section>
   </main>
 
-  <footer><p>O Patou · Original Mountain Resto</p><div><a href="#accueil">Retour en haut ↑</a><span>Maquette indépendante — 2026</span></div></footer>
+  <footer><p>O Patou · Original Mountain Resto</p><div><a href="la-maison.html">La maison</a><a href="la-carte.html">À table</a><a href="groupes.html">Groupes</a><a href="contact.html">Contact</a><a href="mentions-legales.html">Mentions légales</a></div></footer>
+  <a class="sticky-home-call" href="tel:+33492211608">Appeler · 04 92 21 16 08</a>
   <script src="app.js"></script>
 </body>
 </html>

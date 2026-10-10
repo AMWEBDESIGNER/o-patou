@@ -34,10 +34,13 @@ const toggle = document.querySelector('.menu-toggle');
 const menu = document.querySelector('#menu');
 toggle.addEventListener('click', () => {
   const open = menu.classList.toggle('open');
+  menu.style.transform = open ? 'none' : '';
+  menu.style.zIndex = open ? '101' : '';
   toggle.setAttribute('aria-expanded', String(open));
 });
 menu.querySelectorAll('a').forEach((a) => a.addEventListener('click', () => {
   menu.classList.remove('open'); toggle.setAttribute('aria-expanded', 'false');
+  menu.style.transform = ''; menu.style.zIndex = '';
 }));
 
 const slider = document.querySelector('.gallery-slider');
