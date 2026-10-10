@@ -43,3 +43,7 @@ Les informations et photographies proviennent de la fiche touristique officielle
 - mentions légales, SIRET, courriel et responsable de publication.
 
 Le site est statique et ne demande aucune compilation.
+
+## Motion design et provenance du code
+
+Animations réalisées en CSS vanilla, avec respect de `prefers-reduced-motion`, et une révélation progressive inspirée du pattern public [Scroll animation: IntersectionObserver and CSS](https://codepen.io/oscar-jite/pen/qBzwOVq). La logique reste locale, légère et adaptée à l’identité de chaque établissement ; aucune dépendance payante ni contenu généré n’est requis.
